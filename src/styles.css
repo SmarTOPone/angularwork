@@ -1,0 +1,35 @@
+body {
+  font-family: monospace;
+  background: #f4f4f4;
+  color: #111;
+  margin: 0;
+  padding: 20px;
+}
+
+.box {
+  background: #fff;
+  border: 1px solid #111;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+button {
+  background: #fff;
+  color: #111;
+  border: 1px solid #111;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+button:hover {
+  background: #eee;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  border-bottom: 1px dashed #ccc;
+}
